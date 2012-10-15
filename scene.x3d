@@ -1,0 +1,11 @@
+ <Scene>
+	<Transform translation="0 0 0">
+		<Shape>
+			<Appearance>
+				<Material diffuseColor="0.8 0.2 0.2" />
+				<FrictionalSurface />
+			</Appearance>
+			<Box size="0.2 0.3 0.1" />
+		</Shape>
+	</Transform>
+ </Scene>
