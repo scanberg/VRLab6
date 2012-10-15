@@ -1,0 +1,29 @@
+ <Scene>
+	<Transform translation="-0.2 0 0">
+		<Shape>
+			<Appearance>
+				<Material diffuseColor="0.2 0.2 0.2" />
+				<FrictionalSurface />
+			</Appearance>
+			<Box size="0.1 0.1 0.1" />
+		</Shape>
+	</Transform>
+	<Transform translation="0 0 0">
+		<Shape>
+			<Appearance>
+				<Material diffuseColor="0.8 0.8 0.9" />
+				<FrictionalSurface />
+			</Appearance>
+			<Box size="0.1 0.1 0.1" />
+		</Shape>
+	</Transform>
+	<Transform translation="0.2 0 0">
+		<Shape>
+			<Appearance>
+				<Material diffuseColor="0.8 0.5 0.2" />
+				<FrictionalSurface />
+			</Appearance>
+			<Box size="0.1 0.1 0.1" />
+		</Shape>
+	</Transform>
+ </Scene>
