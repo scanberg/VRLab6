@@ -1,0 +1,28 @@
+ <Scene>
+	<Transform translation="-0.2 0 0">
+		<Shape>
+			<Appearance>
+				<Material DEF="M" diffuseColor="0.2 0.2 0.2" />
+				<FrictionalSurface stiffness="1.0" damping="1.0" dynamicFriction="10.0" staticFriction="1.0"/>
+			</Appearance>
+			<Box DEF="B" size="0.1 0.1 0.1" />
+		</Shape>
+	</Transform>
+	<Transform translation="0.2 0 0">
+		<Shape>
+			<Appearance>
+				<Material DEF="M1" diffuseColor="0.2 0.2 0.2" />
+				<FrictionalSurface stiffness="1.0" damping="1.0" dynamicFriction="10.0" staticFriction="1.0"/>
+			</Appearance>
+			<Box DEF="B1" size="0.1 0.1 0.1" />
+		</Shape>
+	</Transform>
+	<PythonScript url="task9.py">
+		<Box USE="B" containerField="references" />
+		<Material USE="M" containerField="references" />
+	</PythonScript>
+	<PythonScript url="task9.py">
+		<Box USE="B1" containerField="references" />
+		<Material USE="M1" containerField="references" />
+	</PythonScript>
+ </Scene>

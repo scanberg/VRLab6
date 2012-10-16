@@ -4,7 +4,7 @@
 			<Appearance>
 				<Material diffuseColor="0.8 0.2 0.2" />
 				<!-- try stiffness < 1500, damping 0-5 -->
-				<SmoothSurface stiffness="0.0" damping="0.0" useRelativeValues="false" />
+				<SmoothSurface stiffness="1.0" damping="1.0" useRelativeValues="false" />
 			</Appearance>
 			<Box size="0.2 0.3 0.1" />
 		</Shape>

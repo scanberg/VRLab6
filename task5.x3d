@@ -3,7 +3,7 @@
 		<Shape>
 			<Appearance>
 				<Material diffuseColor="0.2 0.2 0.2" />
-				<FrictionalSurface />
+				<FrictionalSurface stiffness="1.0" damping="1.0" dynamicFriction="10.0" staticFriction="1.0"/>
 			</Appearance>
 			<Box size="0.1 0.1 0.1" />
 		</Shape>
@@ -12,7 +12,7 @@
 		<Shape>
 			<Appearance>
 				<Material diffuseColor="0.8 0.8 0.9" />
-				<FrictionalSurface />
+				<FrictionalSurface stiffness="100.0" damping="5.0" dynamicFriction="0.001" staticFriction="0.1"/>
 			</Appearance>
 			<Box size="0.1 0.1 0.1" />
 		</Shape>
@@ -21,7 +21,7 @@
 		<Shape>
 			<Appearance>
 				<Material diffuseColor="0.8 0.5 0.2" />
-				<FrictionalSurface />
+				<FrictionalSurface stiffness="50.0" damping="0.2" dynamicFriction="0.2" staticFriction="0.2"/>
 			</Appearance>
 			<Box size="0.1 0.1 0.1" />
 		</Shape>

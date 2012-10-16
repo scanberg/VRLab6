@@ -1,0 +1,16 @@
+ <Scene>
+	<IMPORT inlineDEF="H3D_EXPORTS" exportedDEF="HDEV" AS="HDEV" />
+	<ForceField DEF="FF" force = "0 0 0" />
+	<Transform translation="0 0 0">
+		<Shape>
+			<Appearance>
+				<Material DEF="M" diffuseColor="1.0 0.0 0.0" transparency="0.5" />
+			</Appearance>
+			<Sphere DEF="S" radius="0.1" />
+		</Shape>
+	</Transform>
+	<PythonScript DEF="PS" url="task10.py" />
+	<ROUTE fromNode="PS" fromField="force" toNode="FF" toField="force" />
+	<ROUTE fromNode="HDEV" fromField="trackerPosition" toNode="PS" toField="force" />
+	<ROUTE fromNode="HDEV" fromField="trackerOrientation" toNode="PS" toField="force" />
+ </Scene>
