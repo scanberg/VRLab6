@@ -1,0 +1,20 @@
+ <Scene>
+	<Transform translation="0 0 0">
+		<Shape>
+			<Appearance>
+				<Material diffuseColor="0.8 0.2 0.2" />
+				<FrictionalSurface />
+			</Appearance>
+			<Rectangle2D size="0.3 0.3" />
+		</Shape>
+	</Transform>
+	<Transform translation="0 0 -0.05">
+		<Shape>
+			<Appearance>
+				<Material diffuseColor="0.2 0.8 0.2" />
+				<FrictionalSurface />
+			</Appearance>
+			<Sphere radius="0.1" />
+		</Shape>
+	</Transform>
+ </Scene>
